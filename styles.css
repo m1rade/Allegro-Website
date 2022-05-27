@@ -1,0 +1,237 @@
+body {
+    background-color: #EBDEC4;
+    font-family: 'Montserrat';
+}
+
+/* For header & navbar */
+
+.navbar-nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 154.8%;
+    letter-spacing: 0.025em;
+}
+
+.navbar-brand {
+    width: 120px;
+    height: 36px;
+    left: 215px;
+    top: 21px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140.3%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.125em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+/* For header & navbar */
+
+/* Facing page */
+
+.lead-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 125.8%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FBFBFB;
+    margin-bottom: 50px;
+}
+
+.lead-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 134.8%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.025em;
+    color: #FBFBFB;
+    margin-bottom: 50px;
+}
+
+#mainButton {
+    background-color: #6D1717;
+    color: #ffffff;
+    border: none;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 142.3%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.055em;
+
+    width: 200px;
+    height: 51px;
+    left: 215px;
+    top: 440px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: .0rem;
+}
+#mainButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.main {
+    position: relative;
+    background: url(images/bg_piano.jpg);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        min-height: 60vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .main {
+        min-height: 70vh;
+    }
+    #pic1, #pic2 {
+    width: 100%;
+    height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .main {
+        min-height: 80vh;
+    }
+}
+
+
+/* Facing page */
+
+.about {
+    font-style: normal;
+    font-size: 17px;
+    line-height: 134.8%;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+
+#right-text-about {
+    text-indent: 30px;
+}
+
+#left-text-about {
+    margin-bottom: 30px;
+}
+
+.pros a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+.card {
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+    transition: all .3s;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 39px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer */
+footer {
+    height: auto;
+    padding-top: 30px;
+}
+
+.footer-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140.3%;
+    letter-spacing: 0.125em;
+    line-height: 3rem;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.footer-social li {
+    margin: 0 10px;
+}
+
+.footer-social a {
+    text-decoration: none:
+    color: #ffffff;
+}
+
+.footer-social a i {
+    font-size: 1.1rem;
+}
+
+.footer-bottom {
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.footer-bottom span {
+    color: #ffc30b;
+    font-weight: 700;
+}
+/* footer */
