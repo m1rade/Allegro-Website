@@ -161,6 +161,154 @@ body {
     box-shadow: 4px 8px 39px rgba(0, 0, 0, 0.25);
 }
 
+/* Popular carousel */
+.popular {
+    background-color: #fff;
+    padding-bottom: 70px;
+
+}
+
+.popular h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 126.8%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.025em;
+    padding-bottom: 52px;
+}
+
+.slider-container {
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    transition: .2s;
+}
+
+/* product cards */
+
+.product-card {
+    border: 1px solid #000;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    transition: all .3s;
+}
+
+.product-card:hover {
+    box-shadow: 5px 10px 32px rgba(0, 0, 0, 0.18);
+}
+
+.rating ul {
+    margin-bottom: 0;
+    padding-left: 21px;
+    padding-top: 18px;
+    list-style-type: none;
+}
+
+.rating li {
+    display: inline-block;
+    color: #ECB35B;
+    padding-right: 6px;
+}
+
+.product-card .favorite {
+    padding: 18px 23px 0 0;
+}
+
+.rating #heart {
+    display: inline-block;
+    cursor: pointer;
+    color: grey;
+}
+
+.product-thumb a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    padding-top: 22px;
+    padding-bottom: 18px;
+}
+
+.product-thumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-details p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1px;
+}
+
+.product-details h4 {
+    font-size: 17px;
+}
+
+.product-details h4 p {
+    line-height: 134.8%;
+    display: block;
+    letter-spacing: 0.025em;
+    font-weight: 400;
+    height: 60px;
+    overflow: hidden;
+}
+
+.product-bottom {
+    overflow: hidden;
+    padding: 0 23px 16px 22px;
+}
+
+.product-bottom .product-price {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.product-details span {
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.product-button #add-to-cart {
+    background-color: #6D1717;
+    color: #ffffff;
+    border: none;
+    width: 119px;
+    height: 31px;
+    font-size: 14px;
+    margin-left: 18px;
+}
+
+.slider-buttons .btn-prev {
+    background-image: url(images/chevron-back-sharp.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 50px;
+    width: 65px;
+    border: none;
+}
+
+.slider-buttons .btn-next {
+    background-image: url(images/chevron-forward-sharp.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 50px;
+    width: 65px;
+    border: none;
+}
+
+.slider-buttons span {
+    display: none;
+}
+/* Popular carousel */
+
 /* Footer */
 footer {
     height: auto;
